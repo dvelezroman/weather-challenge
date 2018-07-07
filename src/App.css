@@ -1,0 +1,56 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Forecast Component*/
+.Forecast {
+  width: 500px;
+  background-color: #fff;
+  box-shadow:  0 0 3px rgba(0,0,0,.1);
+  padding: 20px;
+  position: relative;
+}
+
+.Forecast__main {
+   display: flex;
+   justify-content: center;
+}
+
+.Forecast__errorResults {
+  padding: 50px;
+  font-size: 15px;
+  color: #ff2e48;
+}
+
+.Forecast__searchbox-input {
+  padding: 14px 17px;
+  border-radius: 6px;
+  border: 0;
+  background: #f5f5f5;
+  width: 300px;
+  margin-top: 20px;
+}
+
+/* ForecastCard Component*/
+.ForecastCard {
+  width: 350px;
+  background-color: #f5f5f5;
+  padding: 0 0 30px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+.ForecastCard__info {
+  display: flex;
+  flex-direction: column;
+}
+.ForecastCard__info-main {
+  font-size: 71px;
+  letter-spacing: -7px;
+}
