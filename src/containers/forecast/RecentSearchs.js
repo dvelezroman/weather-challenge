@@ -52,10 +52,12 @@ class RecentSearchs extends Component {
     }
 }
 
+// CSS in JS approach with Material UI Next (withStyles lib)
 const styles = {
     recentSearch: {
         display: 'flex',
         flexWrap: 'wrap',
+        marginTop: 20,
     },
     searchBoxItem: {
         margin: 5,
@@ -63,6 +65,10 @@ const styles = {
         backgroundColor: '#F5f5f5',
         padding: '3px 5px',
         borderRadius: 6,
+        cursor: 'pointer',
+        '&:hover': {
+            backgroundColor: '#d5e7fd',
+        }
     },
     searchBoxItemDelete: {
         marginLeft: 5,
