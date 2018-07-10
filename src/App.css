@@ -9,6 +9,7 @@ body {
   align-items: center;
 }
 
+/*BEM approach: We can improve this using SASS or LESS*/
 /* Forecast Component*/
 .Forecast {
   width: 500px;
@@ -38,6 +39,7 @@ body {
   margin-top: 20px;
 }
 
+/*BEM approach: We can improve this using SASS or LESS*/
 /* ForecastCard Component*/
 .ForecastCard {
   width: 350px;

@@ -85,6 +85,7 @@ class Forecast extends Component {
         }
     }
 
+    // I would like to implement Axios to handle Api request.
     fetchForecast = (query) => {
         this.setState({showRecentSearchs: false, searchQuery: query});
         this.saveNewSearch(query);
@@ -100,6 +101,8 @@ class Forecast extends Component {
             });
     }
 
+    // I would like to implement Redux and Redux Persist to handle app state.
+    // No time to configure stores for this app.
     saveNewSearch = (query) => {
         let items = JSON.parse(localStorage.getItem('recentSearchs')) || [];
         let exist = _.find(items, function(o) { return o===query });

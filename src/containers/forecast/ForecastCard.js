@@ -54,6 +54,7 @@ ForecastCard.defaultProps = {
     unit: 'C',
 };
 
+// CSS in JS approach with Material UI Next (withStyles lib)
 const styles = {
     input: {
         padding: 20,
